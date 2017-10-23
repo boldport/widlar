@@ -1,0 +1,41 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top"],
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "2.5mm", 
+          "letter-spacing": "0mm", 
+          "line-height": "2.25mm", 
+          "location": [
+            0, 
+            0
+          ], 
+          "rotate": 0, 
+          "style": "fill", 
+          "type": "text", 
+          "value": "          Bob Widlar never\n         talked about his early\n       years, or anything\n     personal. He was very\n  charming but always a bit\nmysterious. He seemed to\nbe more artist than\n    engineer; he cherished\n           creativity more than\n                the concept\n                      of general\n                         intelligence."
+        },
+        {
+          "layers": ["top"],
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "2.5mm", 
+          "letter-spacing": "0mm", 
+          "line-height": "2.25mm", 
+          "location": [
+            5.3, 
+            -15.7
+          ], 
+          "rotate": 0, 
+          "style": "fill", 
+          "type": "text", 
+          "value": "— Bo Lojek"
+        }
+      ]
+    }
+  }  
+}
