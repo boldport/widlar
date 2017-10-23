@@ -59,25 +59,17 @@
     {
       "shapes":
       [
-        {
-	  "layers": ["top"],
-          "type": "circle",
-          "diameter": 1.1,
-          "soldermask": {
-            "type": "circle",
-            "diameter": 1.1
-          }
-        },
-        {
-	  "layers": ["bottom"],
-          "type": "circle",
-          "diameter": 1.5
-        }
+	{
+          "buffer-to-pour": 0.2,
+	  "layers": ["top","bottom"],
+	  "type": "circle",
+	  "diameter": 1.9
+	}
       ],
       "drills":
       [
         {
-          "diameter": 0.7
+          "diameter": 1
         }
       ]
     }
