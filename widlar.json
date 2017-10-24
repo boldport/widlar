@@ -64,8 +64,8 @@
       "footprint": "UA723-SOIC14", 
       "layer": "bottom", 
       "location": [
-        -6.741484, 
-        8.266369
+        -7.270651, 
+        4.562202
       ], 
       "rotate": 0, 
       "show": true, 
@@ -184,8 +184,8 @@
       "footprint": "resistor", 
       "layer": "bottom", 
       "location": [
-        16.500135, 
-        21.152002
+        16.277677, 
+        20.325731
       ], 
       "rotate": 318.107495, 
       "show": true, 
@@ -199,8 +199,8 @@
       "footprint": "bjt-to92-ammo", 
       "layer": "bottom", 
       "location": [
-        21.335678, 
-        18.360124
+        20.382288, 
+        17.629192
       ], 
       "rotate": 139.03145, 
       "show": true, 
@@ -214,8 +214,8 @@
       "footprint": "bjt-to92-ammo", 
       "layer": "bottom", 
       "location": [
-        -22.668523, 
-        20.127875
+        -22.128269, 
+        19.841858
       ], 
       "rotate": 130.688291, 
       "show": true, 
@@ -435,16 +435,6 @@
       "rotate": 0, 
       "show": true
     }, 
-    "FRAME": {
-      "footprint": "frame", 
-      "layer": "top", 
-      "location": [
-        0, 
-        0
-      ], 
-      "rotate": 0, 
-      "show": true
-    }, 
     "BP-LOGO": {
       "footprint": "boldport-logo-b", 
       "layer": "top", 
@@ -454,6 +444,16 @@
       ], 
       "rotate": 0, 
       "scale": 0.7, 
+      "show": true
+    }, 
+    "FRAME": {
+      "footprint": "frame", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "rotate": 0, 
       "show": true
     }, 
     "QUOTE": {
