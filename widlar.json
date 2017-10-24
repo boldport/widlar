@@ -49,7 +49,7 @@
       "footprint": "capacitor", 
       "layer": "bottom", 
       "location": [
-        22.610237, 
+        22.08107, 
         7.588189
       ], 
       "rotate": 241.171551, 
@@ -60,14 +60,29 @@
         }
       }
     }, 
-    "IC1": {
-      "footprint": "UA723-SOIC14", 
+    "LED1": {
+      "footprint": "led", 
       "layer": "bottom", 
       "location": [
-        -7.270651, 
-        4.562202
+        -23.999683, 
+        -3.909798
       ], 
-      "rotate": 0, 
+      "rotate": 95, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED2": {
+      "footprint": "led", 
+      "layer": "bottom", 
+      "location": [
+        9.438078, 
+        5.460932
+      ], 
+      "rotate": 10, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -239,6 +254,25 @@
           "show": false
         }
       }
+    }, 
+    "\u00b5A723": {
+      "footprint": "UA723-SOIC14", 
+      "layer": "bottom", 
+      "location": [
+        -7.270651, 
+        4.562202
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            -6
+          ], 
+          "show": true
+        }
+      }
     }
   }, 
   "config": {
@@ -254,7 +288,7 @@
   "distances": {
     "from-pour-to": {
       "drill": 0.4, 
-      "outline": 0.25, 
+      "outline": 0.05, 
       "pad": 0.3, 
       "route": 0.25
     }, 
@@ -425,25 +459,25 @@
     ]
   }, 
   "shapes": {
-    "BLOBS": {
-      "footprint": "blob-opening", 
-      "layer": "top", 
-      "location": [
-        -45.794229, 
-        -12.093433
-      ], 
-      "rotate": 0, 
-      "show": true
-    }, 
     "BP-LOGO": {
       "footprint": "boldport-logo-b", 
-      "layer": "top", 
+      "layer": "bottom", 
       "location": [
-        -60.928081, 
-        -46.033237
+        14.274137, 
+        -24.739393
       ], 
       "rotate": 0, 
-      "scale": 0.7, 
+      "scale": 0.65, 
+      "show": true
+    }, 
+    "FOPEN": {
+      "footprint": "face-soldermask", 
+      "layer": "top", 
+      "location": [
+        -8.018769, 
+        -1.967841
+      ], 
+      "rotate": 0, 
       "show": true
     }, 
     "FRAME": {
@@ -456,12 +490,32 @@
       "rotate": 0, 
       "show": true
     }, 
+    "OFFSET": {
+      "footprint": "offset-soldermask", 
+      "layer": "bottom", 
+      "location": [
+        -0.192523, 
+        -0.348612
+      ], 
+      "rotate": 0, 
+      "show": true
+    }, 
     "QUOTE": {
       "footprint": "quote", 
       "layer": "top", 
       "location": [
-        13.777117, 
+        13.867003, 
         -10.858264
+      ], 
+      "rotate": 0, 
+      "show": true
+    }, 
+    "STRANDS": {
+      "footprint": "strands", 
+      "layer": "bottom", 
+      "location": [
+        -0.0, 
+        -0.43928
       ], 
       "rotate": 0, 
       "show": true
