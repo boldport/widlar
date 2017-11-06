@@ -60,6 +60,21 @@
         }
       }
     }, 
+    "J1": {
+      "footprint": "1x16-2p54mm-header-stag", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        -26.308617
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "LED1": {
       "footprint": "led", 
       "layer": "bottom", 
@@ -214,10 +229,10 @@
       "footprint": "bjt-to92-ammo", 
       "layer": "bottom", 
       "location": [
-        20.382288, 
-        17.629192
+        18.513786, 
+        16.220699
       ], 
-      "rotate": 139.03145, 
+      "rotate": 93.967773, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -463,8 +478,8 @@
       "footprint": "boldport-logo-b", 
       "layer": "bottom", 
       "location": [
-        14.274137, 
-        -24.739393
+        17.439073, 
+        -8.418218
       ], 
       "rotate": 0, 
       "scale": 0.65, 
@@ -498,14 +513,14 @@
         -0.348612
       ], 
       "rotate": 0, 
-      "show": true
+      "show": false
     }, 
     "QUOTE": {
       "footprint": "quote", 
       "layer": "top", 
       "location": [
-        13.867003, 
-        -10.858264
+        13.967042, 
+        -8.026841
       ], 
       "rotate": 0, 
       "show": true
@@ -515,7 +530,7 @@
       "layer": "bottom", 
       "location": [
         -0.0, 
-        -0.43928
+        63.060723
       ], 
       "rotate": 0, 
       "show": true
