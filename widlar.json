@@ -75,6 +75,21 @@
         }
       }
     }, 
+    "J2": {
+      "footprint": "trimmer", 
+      "layer": "bottom", 
+      "location": [
+        17.072584, 
+        4.934894
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "LED1": {
       "footprint": "led", 
       "layer": "bottom", 
@@ -154,10 +169,10 @@
       "footprint": "resistor", 
       "layer": "bottom", 
       "location": [
-        13.569176, 
-        8.481141
+        13.211655, 
+        9.235908
       ], 
-      "rotate": 20.458164, 
+      "rotate": 1.917594, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -184,8 +199,8 @@
       "footprint": "resistor", 
       "layer": "bottom", 
       "location": [
-        18.174507, 
-        13.559924
+        18.410517, 
+        14.385906
       ], 
       "rotate": 0, 
       "show": true, 
@@ -229,8 +244,8 @@
       "footprint": "bjt-to92-ammo", 
       "layer": "bottom", 
       "location": [
-        18.513786, 
-        16.220699
+        18.749796, 
+        17.046681
       ], 
       "rotate": 93.967773, 
       "show": true, 
@@ -520,7 +535,7 @@
       "layer": "top", 
       "location": [
         13.967042, 
-        -8.026841
+        -8.556008
       ], 
       "rotate": 0, 
       "show": true
