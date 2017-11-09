@@ -520,15 +520,25 @@
       "rotate": 0, 
       "show": true
     }, 
+    "INFO": {
+      "footprint": "info-text", 
+      "layer": "bottom", 
+      "location": [
+        -0.560741, 
+        -22.140796
+      ], 
+      "rotate": 0, 
+      "show": true
+    }, 
     "OFFSET": {
       "footprint": "offset-soldermask", 
       "layer": "bottom", 
       "location": [
-        -0.192523, 
-        -0.348612
+        0.000747, 
+        -0.440596
       ], 
       "rotate": 0, 
-      "show": false
+      "show": true
     }, 
     "QUOTE": {
       "footprint": "quote", 
